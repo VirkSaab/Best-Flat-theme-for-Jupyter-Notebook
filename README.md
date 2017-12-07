@@ -6,6 +6,7 @@ It is simple and modern looking.
 How to install:
 
 *LINUX:
+
       Make sure your jupyter notebook is not currently running
       
       1. cd ~/.jupyter
@@ -15,6 +16,7 @@ How to install:
       5. Thats it! start jupyter notebook.
       
 *WINDOWS:
+
       Its fine if you are running jupyter notebook currently. Reload page to see changes.
       
       1. first enable Show hidden files and folders to show your hidden folder
