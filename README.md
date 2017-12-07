@@ -1,4 +1,4 @@
-# Best-theme-for-jupyter-notebook
+# Best-custom-theme-for-jupyter-notebook
 Most simple and beautiful design that you can get.
 This is a flat jupyter theme i created. 
 It is simple and modern looking. 
