@@ -110,3 +110,8 @@ div.cell.selected {
     box-shadow: 1px 1px 20px 5px #a6a6a6;
     border-radius: 5px;
 }
+
+div.text_cell_render {
+    box-shadow: 1px 1px 10px 2px #a6a6a6;
+    border-radius: 5px;
+}
