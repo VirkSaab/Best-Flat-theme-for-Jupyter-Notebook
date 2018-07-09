@@ -33,4 +33,4 @@ How to install:
 
 
 ---
-<sup>About me: [https://virksaab.github.io/](https://virksaab.github.io/)</sup>
+<sup>**About me:** [https://virksaab.github.io/](https://virksaab.github.io/)</sup>
