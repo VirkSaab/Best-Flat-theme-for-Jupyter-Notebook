@@ -1,8 +1,12 @@
 /*------------------------------------------
 ->	Modern Flat theme for jupyter notebook
 ->	Author: Jitender Singh Virk aka Virksaab
-->	Date created: 6th december, 2017
+->	Date created: 6 december, 2017
+->  Last updated: 9 July, 2018
 --------------------------------------------*/
+#kernel_logo_widget {
+    display: none;
+}
 
 .notebook_app {
     background-color: #cccccc;
@@ -16,8 +20,21 @@
 
 body > #header .header-bar {
     width: 100%;
-    background: #f37626;
+    background: #f00;
     margin-bottom: -1px;
+}
+
+#login_widget > .button, #logout {
+    color: #ffffff;
+    background-color: #f00;
+    border-color: #f00;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px 0px #A6A6A6;
+    margin-left: 10px;
+}
+
+#ipython_notebook a img{
+	height: 30px;
 }
 
 #maintoolbar{display: none;}
@@ -38,22 +55,16 @@ body > #header .header-bar {
     box-shadow: 1px 1px 5px 2px #a6a6a6;
 }
 
-#kernel_indicator {color: #f37626;}
-
+#kernel_indicator {color: #f00;}
+.container {
+    width: 99%;
+}
 #notebook-container {
-    width: 90%;
+    width: 95%;
     background-color: #e6e6e6;
     box-shadow: 1px 1px 20px 5px #a6a6a6;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-div.input_area {
-    border: 0px groove #cfcfcf;
     border-radius: 3px;
-    background: #ffffff;
-    line-height: 1.21429em;
-    box-shadow: 0px 5px 8px #bfbfbf;
+    font-size: 16px;
 }
 
 div.output_wrapper {
@@ -65,26 +76,21 @@ div.CodeMirror, div.output_area pre, div.output_wrapper {
   font-size: 20px;
 }
 
+.CodeMirror-linenumber {
+    padding: 0px 10px 0px 0px;
+    box-sizing: inherit;
+}
+
 div.input_prompt {color: #0033cc;}
 div.output_prompt {color: #cc3300;}
 
 .edit_mode div.cell.selected {
-    border-width: 0px;
     border-color: #66BB6A;
-    border-left-width: 0px;
+    border-left-width: 5px;
     padding-left: 0px;
     background: #66BB6A;
-        background-color: rgb(102, 187, 106);
-        background-image: none;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        background-clip: border-box;
-        background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
-        background-size: auto auto;
     box-shadow: 1px 1px 20px 5px #a6a6a6;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 div.input_prompt {
@@ -93,25 +99,36 @@ div.input_prompt {
 }
 
 div.cell.selected {
-    border-width: 0px;
     border-color: #42A5F5;
-    border-left-width: 0px;
+    border-left-width: 5px;
     padding-left: 0px;
     background: #42A5F5;
-        background-color: rgb(66, 165, 245);
-        background-image: none;
-        background-repeat: repeat;
-        background-attachment: scroll;
-        background-clip: border-box;
-        background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
-        background-size: auto auto;
     box-shadow: 1px 1px 20px 5px #a6a6a6;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 div.text_cell_render {
-    box-shadow: 1px 1px 10px 2px #a6a6a6;
-    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px #bfbfbf;
+    border-radius: 3px;
+}
+
+div.inner_cell {
+    box-shadow: 1px 1px 10px 2px #bfbfbf;
+    border-radius: 3px;
+}
+
+div.input_area {
+    background: #ffffff;
+    border: none;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border-color: none;
+}
+div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    background: none;
+}
+
+.rendered_html tr, .rendered_html th, .rendered_html td {
+	font-size: 15px;
 }
