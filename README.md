@@ -31,4 +31,4 @@ How to install:
      I'm sorry i don't have mac and i think steps are same as linux.
      Just locate your .jupyter folder and replace custom.css
  ---
- *AUTHOR: Jitender Singh Virk || About me: https://virksaab.github.io/ *
+ ###AUTHOR: Jitender Singh Virk || About me: https://virksaab.github.io/
