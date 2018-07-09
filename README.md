@@ -1,7 +1,6 @@
-# Best-custom-theme-for-jupyter-notebook
-Most simple and beautiful design that you can get.
-This is a flat jupyter theme i created. 
-It is simple and modern looking. 
+# Best flat theme for jupyter notebook
+This custom theme is really beautiful and modern looking. It is based on flat design. Give it a try!
+
 
 How to install:
 
@@ -31,3 +30,7 @@ How to install:
       
      I'm sorry i don't have mac and i think steps are same as linux.
      Just locate your .jupyter folder and replace custom.css
+ ---
+ AUTHOR: Jitender Singh Virk
+ About me: https://virksaab.github.io/
+ ---
