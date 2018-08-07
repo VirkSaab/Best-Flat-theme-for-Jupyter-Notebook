@@ -1,3 +1,6 @@
+.list_container {
+    background-color: whitesmoke;
+}
 
 .notebook_app > #header {
     background-color: #e6e6e6;
