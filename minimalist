@@ -1,0 +1,83 @@
+
+.notebook_app > #header {
+    background-color: #e6e6e6;
+    left: -7px;
+}
+
+body > #header #header-container {
+    padding: 0px !important;
+    padding-top: 5px !important;
+}
+
+#login_widget > .button, #logout {
+    color: #fd332a;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px #A6A6A6;
+}
+
+#maintoolbar{display: none;}
+
+
+#kernel_logo_widget {
+    display: none;
+}
+
+#kernel_indicator {color: #f00;}
+
+#menubar {
+    margin: 0px;
+}
+
+#menubar .navbar {
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+#notebook-container {
+    background-color: #e6e6e6;
+
+}
+
+div#notebook {
+    padding-top: 1px !important;
+    font-size: 17px; /*font-size for output*/
+}
+
+.CodeMirror pre {
+    font-size: 17px; /*font-size for code*/
+    line-height: 2.2rem;
+}
+
+#site {
+    background-color: #141414;
+}
+
+div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    width: 6px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.edit_mode div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    width: 6px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+div.input_area {
+    border: none;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    /* box-shadow: 0px 0px 8px 0px #0000007a; */
+    background-color: lightgray;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: #42a5f5;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
