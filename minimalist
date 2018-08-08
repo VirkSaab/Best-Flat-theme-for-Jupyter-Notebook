@@ -1,7 +1,36 @@
-.list_container {
-    background-color: whitesmoke;
+/*------------------------- HOME TREE START -----------------------*/
+#site {
+    background-color: #141414;
 }
 
+#tab_content {
+    background: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list_container {
+    box-shadow: 0px 0px 10px 0px #000000ab;
+    margin-top:5px;
+}
+
+.alternate_upload .btn-upload {
+    box-shadow: 0px 0px 3px 0px #000000ab;
+    position: relative;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.btn-group > .btn:first-child {
+    box-shadow: 0px 0px 3px 0px #000000ab;
+    margin-right: 5px;
+}
+
+/*------------------------- HOME TREE END -----------------------*/
+
+/*------------------------- NOTEBOOK START -----------------------*/
 .notebook_app > #header {
     background-color: #e6e6e6;
     left: -7px;
@@ -12,8 +41,12 @@ body > #header #header-container {
     padding-top: 5px !important;
 }
 
+span.save_widget span.filename {
+    color: orangered;
+}
+
 #login_widget > .button, #logout {
-    color: #fd332a;
+    color: orangered;
     background-color: #e6e6e6;
     border-color: #e6e6e6;
     border-radius: 3px;
@@ -27,7 +60,7 @@ body > #header #header-container {
     display: none;
 }
 
-#kernel_indicator {color: #f00;}
+#kernel_indicator {color: orangered;}
 
 #menubar {
     margin: 0px;
@@ -48,13 +81,30 @@ div#notebook {
     font-size: 17px; /*font-size for output*/
 }
 
+.run_this_cell {
+    visibility: hidden;
+    cursor: pointer;
+    color: green;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 1ex;
+}
+
+div.prompt:empty {
+    padding: 0;
+}
+
 .CodeMirror pre {
     font-size: 17px; /*font-size for code*/
     line-height: 2.2rem;
 }
 
-#site {
-    background-color: #141414;
+div.code_cell div.input_prompt {
+    min-width: 9ex;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
@@ -70,7 +120,7 @@ div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
 }
 
 div.input_area {
-    border: none;
+    border:none;
 }
 
 div.cell.selected, div.cell.selected.jupyter-soft-selected {
@@ -83,4 +133,4 @@ div.cell.selected, div.cell.selected.jupyter-soft-selected {
     margin-top: 10px;
 }
 
-
+/*------------------------- NOTEBOOK END -----------------------*/
