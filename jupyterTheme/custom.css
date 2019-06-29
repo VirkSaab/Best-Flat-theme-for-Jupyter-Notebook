@@ -1463,6 +1463,12 @@ a {
  -webkit-font-smoothing: subpixel-antialiased;
  font-weight: 400;
 }
+.timing_area {
+    padding: 0 5px;
+    border: none;
+    border-top: 1px solid #49483e !important;
+    font-size: 80%;
+}
 div.input_area {
  background-color: #282828;
  background: transparent;
@@ -1539,7 +1545,7 @@ div.cell.code_cell .input {
  border-top-left-radius: 3px;
 }
 div.cell.code_cell.selected .input {
- border-left: 5px solid darkred !important;
+ border-left: 7px solid darkred !important;
  border-radius: 3px;
 }
 .edit_mode div.cell.code_cell.selected .input {
