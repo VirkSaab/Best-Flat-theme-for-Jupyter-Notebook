@@ -3021,6 +3021,7 @@ div.tooltiptext.bigtooltip {
 }
 .CodeMirror-gutters {
  border: none;
+ padding-right: 5px;
  border-right: 1px solid #49483e !important;
  background-color: transparent !important;
  background: transparent !important;
