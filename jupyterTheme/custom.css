@@ -1546,7 +1546,7 @@ div.cell.code_cell .input {
 }
 div.cell.code_cell.selected .input {
  border-left: 7px solid darkred !important;
- border-radius: 3px;
+ border-radius: 0px;
 }
 .edit_mode div.cell.code_cell.selected .input {
  border-left: 5px solid #33322b !important;
@@ -1554,8 +1554,8 @@ div.cell.code_cell.selected .input {
 }
 .edit_mode div.cell.selected:before {
  height: 100%;
- border-left: 5px solid green !important;
- border-radius: 3px;
+ border-left: 7px solid green !important;
+ border-radius: 0px;
 }
 div.cell.jupyter-soft-selected,
 div.cell.selected.jupyter-soft-selected {
@@ -1633,13 +1633,16 @@ div.cell.code_cell .input_prompt {
  border-right: 2px solid #49483e;
 }
 div.cell.selected .prompt {
+ background: transparent;
  top: 0;
 }
 .edit_mode div.cell.selected .prompt {
+ background: transparent;
  top: 0;
 }
 .edit_mode div.cell.selected .prompt {
- top: 0;
+background: transparent;
+top: 0;
 }
 .run_this_cell {
  visibility: hidden;
