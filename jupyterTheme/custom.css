@@ -1697,7 +1697,7 @@ div.output_wrapper {
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
  font-family: monospace, monospace;
- font-size: 8.5pt !important;
+ font-size: 12.5pt !important;
  line-height: 150% !important;
  background-color: #232323;
  box-shadow: inset 0px 0px 10px 3px #131315;
@@ -2778,14 +2778,14 @@ div#short-key-bindings-intro.well,
  box-shadow: none;
 }
 #texteditor-backdrop {
- background: #1e1e1e;
- background-color: #1e1e1e;
+ background: transparent;
+ background-color: transparent;
 }
 #texteditor-backdrop #texteditor-container .CodeMirror-gutter,
 #texteditor-backdrop #texteditor-container .CodeMirror-gutters {
- background: #49483e;
- background-color: #49483e;
- color: #75715e;
+ background: transparent;
+ background-color: transparent;
+ color: transparent;
 }
 .edit_app #menubar .navbar {
  margin-bottom: 0px;
