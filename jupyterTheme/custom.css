@@ -458,7 +458,7 @@ div#notebook {
  background-color: #000000;
  min-height: 0px;
  box-shadow: none;
- width: 70%;
+ width: 95%;
  margin-right: auto;
  margin-left: auto;
 }
@@ -1697,7 +1697,7 @@ div.output_wrapper {
 div.output_subarea.output_text.output_stream.output_stdout,
 div.output_subarea.output_text {
  font-family: monospace, monospace;
- font-size: 12.5pt !important;
+ font-size: 13.5pt !important;
  line-height: 150% !important;
  background-color: #232323;
  box-shadow: inset 0px 0px 10px 3px #131315;
@@ -1709,7 +1709,7 @@ div.output_subarea.output_text {
 div.output_area pre {
   padding: 8px;
  font-family: monospace, monospace;
- font-size: 12.5pt !important;
+ font-size: 13.5pt !important;
  line-height: 151% !important;
  color: #cccccc;
  border-top-right-radius: 0px;
@@ -1720,7 +1720,7 @@ div.output_area {
 }
 div.output_html {
  font-family: monospace, monospace;
- font-size: 8.5pt;
+ font-size: 13.5pt;
  color: #cccccc;
  background-color: #232323;
  background: #232323;
